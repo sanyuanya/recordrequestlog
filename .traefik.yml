@@ -1,0 +1,17 @@
+displayName: record request log Plugin
+type: middleware
+
+import: github.com/sanyuanya/recordrequestlog
+
+summary: '记录请求的日志信息'
+
+testData:
+  endpoint: "http://172.16.175.162:5081"
+  authorization: "Basic aGpzYW55dWFueWFAZ21haWwuY29tOlE5RDJjVGp4TWF0SjhWS28="
+  organization: "default"
+  stream_name: "default"
+  server_name: "announcement"
+
+
+    
+
