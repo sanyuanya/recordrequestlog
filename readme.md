@@ -1,4 +1,4 @@
-This repository includes an example plugin, `demo`, for you to use as a reference for developing your own plugins.
+记录 http 请求的日志，记录到 `openobserve`
 
 [![Build Status](https://github.com/traefik/plugindemo/workflows/Main/badge.svg?branch=master)](https://github.com/traefik/plugindemo/actions)
 
@@ -39,8 +39,7 @@ The following declaration (given here in YAML) defines a plugin:
 experimental:
   plugins:
     example:
-      moduleName: github.com/traefik/plugindemo
-      version: v0.2.1
+      moduleName: github.com/sanyuanya/recordrequestlog
 ```
 
 Here is an example of a file provider dynamic configuration (given here in YAML), where the interesting part is the `http.middlewares` section:
